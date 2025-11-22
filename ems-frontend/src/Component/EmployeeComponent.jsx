@@ -44,9 +44,6 @@ const EmployeeComponent = () => {
     }
   }, [id]);
 
-  
-
-  
   //For onclick function
   function saveOrUpdateEmployee(e) {
     e.preventDefault();
@@ -78,8 +75,6 @@ const EmployeeComponent = () => {
       }
     }
   }
-
-  
 
   //form validation "if given input is empty or invalid"
   function validateForm() {
